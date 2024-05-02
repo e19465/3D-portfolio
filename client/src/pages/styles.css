@@ -1,0 +1,7 @@
+.custom-input-styles {
+    border: none;
+    outline: none;
+    &:focus {
+        outline: 2px solid #0077FF;
+    }
+}

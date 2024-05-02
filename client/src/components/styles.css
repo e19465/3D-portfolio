@@ -1,0 +1,16 @@
+@keyframes colorChange {
+    0% {
+        width: 100%; /* Start from the left side */
+        background-color: teal;
+    }
+    100% {
+        width: 0%; /* End at the right side */
+        background-color: teal;
+    }
+}
+
+.animate-bar {
+    animation: colorChange 3s linear forwards;
+    width: 100%; /* Set initial width of the bar */
+    background-color: teal; /* Set initial background color */
+}
