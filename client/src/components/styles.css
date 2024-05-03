@@ -14,3 +14,28 @@
     width: 100%; /* Set initial width of the bar */
     background-color: teal; /* Set initial background color */
 }
+
+
+.custom-gradient-text {
+  background: linear-gradient(45deg, #ff8a00, #fa2d13, #dc4b55, #a82d76, #7c1f95);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.custom-btn-bg {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #6f1a8a, #6c3daf, #6479d1, #68a5f0, #6cd4f9);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease-in-out;
+}
+
+.custom-btn-bg:hover {
+    background-position: 200% 200%;
+    background-image: linear-gradient(45deg, #009688, #43a047, #8bc34a, #cddc39, #ffeb3b);
+}
+

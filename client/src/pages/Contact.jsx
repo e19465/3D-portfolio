@@ -75,9 +75,11 @@ const Contact = () => {
     <section className="relative flex lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Get in Touch</h1>
+        <h1 className="head-text custom-gradient-pages-text ">
+          Get in Touch...
+        </h1>
         <form
-          className="w-full flex flex-col gap-7 mt-14"
+          className="w-full flex flex-col gap-7 mt-1 p-5 custom-form "
           onSubmit={handleSubmit}
           ref={formRef}
         >
@@ -124,7 +126,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="btn"
+            className="custom-btn-bg-pages"
             onFocus={handleFocus}
             onBlur={handleBlur}
             disabled={isLoading}

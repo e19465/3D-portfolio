@@ -16,12 +16,6 @@ import tailwindcss from "./tailwindcss.svg";
 import typescript from "./typescript.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import car from "./car.svg";
-import estate from "./estate.svg";
-import pricewise from "./pricewise.svg";
-import snapgram from "./snapgram.svg";
-import summiz from "./summiz.svg";
-import threads from "./threads.svg";
 import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import soundon from "./soundon.png";
@@ -37,45 +31,55 @@ import drf from "./drf.svg";
 import jwt from "./jwt.svg";
 import python from "./python.svg";
 import java from "./java.svg";
+import baby from "./baby.svg";
+import library from "./library.svg";
+import bicylce from "./bicycle.svg";
+import ecom from "./ecom.svg";
+import counselling from "./counselling.svg";
+import management from "./management.svg";
+import parking from "./parking.svg";
+import onlinetools from "./onlinetools.svg";
 
 export {
+  arrow,
+  aws,
+  baby,
+  bicylce,
+  contact,
+  counselling,
   css,
+  dj,
+  drf,
+  ecom,
   express,
+  fastapi,
   git,
   github,
   html,
+  java,
   javascript,
+  jwt,
+  library,
+  linkedin,
+  management,
   mongodb,
   motion,
   mui,
+  mysql,
   nextjs,
   nodejs,
+  onlinetools,
+  parking,
+  psql,
+  python,
   react,
   redux,
   sass,
-  tailwindcss,
-  typescript,
-  linkedin,
-  twitter,
-  car,
-  estate,
-  pricewise,
-  snapgram,
-  summiz,
-  threads,
-  arrow,
-  contact,
-  soundon,
   soundoff,
-  aws,
-  fastapi,
-  swagger,
-  mysql,
-  psql,
+  soundon,
   styledcomponents,
-  dj,
-  drf,
-  jwt,
-  python,
-  java,
+  swagger,
+  tailwindcss,
+  twitter,
+  typescript,
 };
